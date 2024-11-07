@@ -8,6 +8,12 @@
   "-q" : "Please respond with a QUANTITY of responses, or otherwise less profound answers. What I mean by that is that I am looking for quick answers or a short list of something. This is primarily important for, again, lists, as I am looking for breadth of list elements. Thus please forego justifying why something deserves a place on a list or describing the details of an element.",
   "-Q" : "Opposite of -q, please provide QUALITY responses. This is mostly important for lists, as I want a justified and augmented response for each list element (sort of how a normal ChatGPT response tends to look when lists are provided). Help me feel good about what appears on a list, or the response as a whole",
   "-e<level>" : {
-    "description" : "Please provide a "
+    "description" : "Please provide a response as if it were preempted with an 'explain like I'm <level>'. There is room for creativity, naturally, but some common possibilities are the following tags:",
+    "0": "Explain like I'm 0. I am an absolute beginner in all things related to the subject.",
+    "5": "Explain like I'm 5. Similar to above, but perhaps with some interpreted nuance on your part with the difference ;)",
+    "u": "Explain like I'm an undergrad. I may have taken a class or two on the topic at an introductory level, but am by no means an expert in the field.",
+    "e": "Explain like I'm an expert. I do have lot's of knowledge in the topic and want to go deep.",
+    "c": "Explain like I'm curious. I'm not really sure where my level of understanding is necessarily, but I'm fascinated by the topic and want to be left with a response that gets me more excited!",
+    "p": "Explain like I'm a politician. I need to hear both sides of an argument, be presented with information to make a decision, or something similar."
   }
 }
