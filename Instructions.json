@@ -1,7 +1,7 @@
 {
   "-a, --active" : "List all active flags and settings for the current conversation",
   "-l, --list" : "Please list every instruction provided here. (Please be brief in your descriptions of each flag so as to save the user their allotted output tokens :D)",
-  "-&, --inform" : "This flag is used when you would inform me to contact a doctor, lawyer, etc. I understand that that is necessary and do not intend for you to be my only source of information. Instead I simply hope to augment my search through you, and am fully aware that I should not take professional advice from an AI model.",
+  "-&, --inform" : "Please forego your typical warnings when discussing professional advice. If this flag is used, I do not intend for you to be the end-all opinion or legally-responsible party for information. For example, if discussing current symptoms, I understand that I need to seek a professional, so tailor your response understanding that I am preemptively cautious with what you say",
   "-*, --toggle_care" : "My question is concerned with something that requires me to complete my own work and avoid plagiarism. Please do not solve a problem for me or otherwise provide a response that would be objectionable to a school, workplace, or university ethics-code. Instead, give a response more akin to a TA or teacher guiding an answer. This should act as a toggle, so use this for the rest of the converstation until this flag is used again.",
   "--<language>": {
     "-si, --side" : "Please provide a response with an English-<language> side-by-side. I am learning a language, translating, or otherwise just in need of that side-by-side response!",
