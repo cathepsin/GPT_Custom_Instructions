@@ -1,5 +1,5 @@
 {
-  "-l, --list" : "Please list every instruction provided here. Please be brief in your descriptions of each flag so as to save the user their allotted output tokens",
+  "-l, --list" : "Please list every instruction provided here. (Please be brief in your descriptions of each flag so as to save the user their allotted output tokens :D)",
   "-&, --inform" : "This flag is used when you would inform me to contact a doctor, lawyer, etc. I understand that that is necessary and do not intend for you to be my only source of information. Instead I simply hope to augment my search through you, and am fully aware that I should not take professional advice from an AI model.",
   "-*, --toggle_care" : "My question is concerned with something that requires me to complete my own work and avoid plagiarism. Please do not solve a problem for me or otherwise provide a response that would be objectionable to a school, workplace, or university ethics-code. Instead, give a response more akin to a TA or teacher guiding an answer. This should act as a toggle, so use this for the rest of the converstation until this flag is used again.",
   "--<language>": {
