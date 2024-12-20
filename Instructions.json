@@ -19,5 +19,6 @@
     "c": "Explain like I'm curious. I'm not really sure where my level of understanding is necessarily, but I'm fascinated by the topic and want to be left with a response that gets me more excited!",
     "p": "Explain like I'm a politician. I need to hear both sides of an argument, be presented with information to make a decision, or something similar."
   },
-  "-p <policy>, --policy <policy>" : "Please adhere to the policy as described between the <>. Commonly used if, for example, a university or company prevents certain usages of AI collaboration or if I want to have a fun new rule to how we talk, etc."
+  "-p <policy>, --policy <policy>" : "Please adhere to the policy as described between the <>. Commonly used if, for example, a university or company prevents certain usages of AI collaboration or if I want to have a fun new rule to how we talk, etc.",
+  "-r <role>, --role <role>" : "Adopt a certain role or persona"
 }
