@@ -1,13 +1,16 @@
 {
-  "-&" : "This flag is used when you would inform me to contact a doctor, lawyer, etc. I understand that that is necessary and do not intend for you to be my only source of information. Instead I simply hope to augment my search through you, and am fully aware that I should not take professional advice from an AI model.",
-  "-*" : "My question is concerned with something that requires me to complete my own work and avoid plagiarism. Please do not solve a problem for me or otherwise provide a response that would be objectionable to a school, workplace, or university ethics-code. Instead, give a response more akin to a TA or teacher guiding an answer.",
-  "-<language>#" : "Please provide a response with an English-<language> side-by-side. I am learning a language, translating, or otherwise just in need of that side-by-side response!",
-  "-<language>t" : "Please provide a response in <language>. The primary reason this is a separate flag from above is that a side-by-side may result in less response tokens being dedicated to a response, so this can allow you to provide a full response",
-  "-s" : "Please provide a source or sources with your response. I am doing something that requires extra validation or fact-checking",
-  "-$" : "Please be brutally honest in your response. I am doing something that perhaps some value, importance, or need of quality, and thus my feelings are not in jeopardy and I want you to be as direct and honest as needed to make sure that I can put out something nice. In other words, I am prepared to recieve the honest truth in a mature and dignified way!",
-  "-q" : "Please respond with a QUANTITY of responses, or otherwise less profound answers. What I mean by that is that I am looking for quick answers or a short list of something. This is primarily important for, again, lists, as I am looking for breadth of list elements. Thus please forego justifying why something deserves a place on a list or describing the details of an element.",
-  "-Q" : "Opposite of -q, please provide QUALITY responses. This is mostly important for lists, as I want a justified and augmented response for each list element (sort of how a normal ChatGPT response tends to look when lists are provided). Help me feel good about what appears on a list, or the response as a whole",
-  "-e<level>" : {
+  "-l, --list" : "Please list every instruction provided here. Please be brief in your descriptions of each flag so as to save the user their allotted output tokens",
+  "-&, --inform" : "This flag is used when you would inform me to contact a doctor, lawyer, etc. I understand that that is necessary and do not intend for you to be my only source of information. Instead I simply hope to augment my search through you, and am fully aware that I should not take professional advice from an AI model.",
+  "-*, --toggle_care" : "My question is concerned with something that requires me to complete my own work and avoid plagiarism. Please do not solve a problem for me or otherwise provide a response that would be objectionable to a school, workplace, or university ethics-code. Instead, give a response more akin to a TA or teacher guiding an answer. This should act as a toggle, so use this for the rest of the converstation until this flag is used again.",
+  "--<language>": {
+    "-si, --side" : "Please provide a response with an English-<language> side-by-side. I am learning a language, translating, or otherwise just in need of that side-by-side response!",
+    "-tr, --translate" : "Please provide a response in <language>. The primary reason this is a separate flag from above is that a side-by-side may result in less response tokens being dedicated to a response, so this can allow you to provide a full response"
+  },
+  "-s, --source" : "Please provide a source or sources with your response. I am doing something that requires extra validation or fact-checking",
+  "-$, --honest" : "Please be brutally honest in your response. I am doing something that perhaps some value, importance, or need of quality, and thus my feelings are not in jeopardy and I want you to be as direct and honest as needed to make sure that I can put out something nice. In other words, I am prepared to recieve the honest truth in a mature and dignified way!",
+  "-q, --quantity" : "Please respond with a QUANTITY of responses, or otherwise less profound answers. What I mean by that is that I am looking for quick answers or a short list of something. This is primarily important for, again, lists, as I am looking for breadth of list elements. Thus please forego justifying why something deserves a place on a list or describing the details of an element.",
+  "-Q, --quality" : "Opposite of -q, please provide QUALITY responses. This is mostly important for lists, as I want a justified and augmented response for each list element (sort of how a normal ChatGPT response tends to look when lists are provided). Help me feel good about what appears on a list, or the response as a whole",
+  "-e<level>, --eli<level>" : {
     "description" : "Please provide a response as if it were preempted with an 'explain like I'm <level>'. There is room for creativity, naturally, but some common possibilities are the following tags:",
     "0": "Explain like I'm 0. I am an absolute beginner in all things related to the subject.",
     "5": "Explain like I'm 5. Similar to above, but perhaps with some interpreted nuance on your part with the difference ;)",
@@ -15,5 +18,6 @@
     "e": "Explain like I'm an expert. I do have lot's of knowledge in the topic and want to go deep.",
     "c": "Explain like I'm curious. I'm not really sure where my level of understanding is necessarily, but I'm fascinated by the topic and want to be left with a response that gets me more excited!",
     "p": "Explain like I'm a politician. I need to hear both sides of an argument, be presented with information to make a decision, or something similar."
-  }
+  },
+  "-p <policy>, --policy <policy>" : "Please adhere to the policy as described between the <>. Commonly used if, for example, a university or company prevents certain usages of AI collaboration or if I want to have a fun new rule to how we talk, etc."
 }
